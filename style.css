@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: white;
+    padding: 3px 13px;
+    align-items: center;
+    display: inline-block;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 10px;    
+    margin-top: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    margin: 0 10px;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  bottom: 0;
+  background-position: fixed;
+}
+.home span {
+    color: green;
+}
+.icons a {
+    text-decoration: none;
+    color: black;
+}
+.icons ion-icon {
+    margin-left: 7%;
+    text-align: center;
+    font-size: 50px;
+}
+.icons ion-icon:hover {
+    color: blue;
+}
+.index-container {
+    justify-content: space-around;
+}
+.index-item {
+    padding: 18px;
+    margin: 10px;
+    background-color: orange;
+    border-radius: 80px;
+}
+.myself {
+    padding: 22px;
+    margin: 12px;
+    background-color:  lightblue;
+    border-radius: 80px;
+}
+.myslf img {
+    padding: 10px;
+    margin: 12px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.lesson-highlight {
+      background-color: magenta;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 70px;
+}
+img {
+  transition: transform 1s ease; 
+}
+
+img:hover {
+  transform: scale(1.3); 
+  cursor: pointer; 
+}
+.icons {
+    transition: transform 1s ease; 
+}
+.icons:hover {
+    transform: scale(1.3); 
+    cursor: pointer; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    border: 5px solid limegreen;
+    align-items: center;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow:0 0 100px;
+    background-color: darkgreen;
+    height: 
+}
+.item {
+    width: 250vh;
+    margin: 20px;
+    align-items: center;
+    height: auto;
+}
+.item img {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    height: 45vh;
+    background-position: center;
+    border-radius: 50px;
+}
